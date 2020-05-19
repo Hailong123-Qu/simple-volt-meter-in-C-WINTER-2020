@@ -1,0 +1,4 @@
+# simple-volt-meter-in-C-WINTER-2020
+https://www.ics.uci.edu/~givargis/courses/cs145/projects/4/
+
+Design an embedded computer centered around the ATMega32 microcontroller. For input, use a keypad and an analog-to-digital (AD) I/O. For output, use an LCD. Write a C program that implements a simple volt-meter. Your volt-meter must take an AD sample every 500 ms and update the display accordingly. The display should show four parameters: (1) instantaneous voltage, (2) max voltage, (3) min voltage, and (4) average voltage. All these parameters should be reset to ---- (i.e., blank) on a push of a button. Another button press should initiate the sampling. The maximum AD precision should be utilized. Timer/interrupt should be used for precise timing. Consult the ATMega32 manual for AD and timer/interrupt programming.
